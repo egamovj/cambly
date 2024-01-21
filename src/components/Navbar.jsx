@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex justify-between items-center py-2 bg-[#4D95EA] px-[40px]">
+      <nav className="flex justify-between items-center py-2  px-[40px]">
         <div className="flex gap-[30px]">
           <img src={Logo} alt="Cambly logo" />
           <div className="flex gap-[19px] text-white">
