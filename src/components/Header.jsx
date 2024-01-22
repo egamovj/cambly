@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-[#4D95EA]">
       <Navbar />
       <main>
-        <section className="flex items-center pl-[160px] px-[320px]">
+        <section className="flex items-center pl-[160px] px-[320px] pt-10">
           <div className="pl-[80px] flex flex-col gap-7">
             <h1 className="text-[64px] text-white font-black">
               Online English classes with native speakers
@@ -18,6 +18,9 @@ const Header = () => {
           </div>
           <img src={GuyGlobe} alt="" />
         </section>
+        <div>
+          <div></div>
+        </div>
       </main>
     </header>
   );
