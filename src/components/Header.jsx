@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import ArrowRight from "../assets/icons/arrow.svg";
-import GuyGlobe from "../assets/icons/guyandglobe.svg";
+import GuyAndGlobe from "../assets/icons/guyandglobe.svg";
 
 const Header = () => {
   return (
@@ -16,11 +16,8 @@ const Header = () => {
               Get started <img src={ArrowRight} alt="Right" />
             </button>
           </div>
-          <img src={GuyGlobe} alt="" />
+          <img src={GuyAndGlobe} alt="" />
         </section>
-        <div>
-          <div></div>
-        </div>
       </main>
     </header>
   );
