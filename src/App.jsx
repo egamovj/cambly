@@ -6,17 +6,13 @@ import GroupLessons from "./pages/GroupLessons";
 import Resources from "./pages/Resources";
 import Kids from "./pages/Kids";
 import Business from "./pages/Business";
-import Header from "./components/Header";
-import Tutors from "./components/Tutors";
-import SubPlan from "./components/SubPlan";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Tutors />
-      <SubPlan />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/teachers" element={<Teachers />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/group-lessons" element={<GroupLessons />} />
