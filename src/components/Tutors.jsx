@@ -51,7 +51,7 @@ const Tutors = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center gap-6 pt-[375px] text-center">
+        <div className="flex flex-col justify-center gap-6 pt-[375px] text-center pl-[80px]">
           <h2 className="text-[40px] font-black text-[#4D95EA]">
             Choose your own tutor
           </h2>

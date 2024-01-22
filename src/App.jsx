@@ -8,12 +8,14 @@ import Kids from "./pages/Kids";
 import Business from "./pages/Business";
 import Header from "./components/Header";
 import Tutors from "./components/Tutors";
+import SubPlan from "./components/SubPlan";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Tutors />
+      <SubPlan />
       <Routes>
         <Route path="/teachers" element={<Teachers />} />
         <Route path="/courses" element={<Courses />} />
