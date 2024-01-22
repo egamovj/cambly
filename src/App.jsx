@@ -7,13 +7,13 @@ import Resources from "./pages/Resources";
 import Kids from "./pages/Kids";
 import Business from "./pages/Business";
 import Header from "./components/Header";
-import Videos from "./components/Videos";
+import Tutors from "./components/Tutors";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Videos />
+      <Tutors />
       <Routes>
         <Route path="/teachers" element={<Teachers />} />
         <Route path="/courses" element={<Courses />} />
