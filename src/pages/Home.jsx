@@ -3,6 +3,8 @@ import Tutors from "../components/Tutors";
 import SubPlan from "../components/SubPlan";
 import FreeCourses from "../components/FreeCourses";
 import CoursesSwipe from "../components/Courses";
+import ForInterest from "../components/ForInterest";
+import Peoples from "../components/Peoples";
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
       <SubPlan />
       <FreeCourses />
       <CoursesSwipe />
+      <ForInterest />
+      <Peoples />
     </div>
   );
 };

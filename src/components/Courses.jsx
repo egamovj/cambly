@@ -25,7 +25,7 @@ const CoursesSwipe = () => {
       className="mt-40 mb-[60px] flex pl-[30px] pb-5"
     >
       <SwiperSlide className="rounded-2xl">
-        <div className="rounded-2xl shadow-xl pt-3 transform -rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform -rotate-6">
           <img src={part1} alt="" className="w-full rounded-t-2xl " />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
@@ -37,7 +37,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform -rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform -rotate-6">
           <img src={part2} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
@@ -49,7 +49,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform rotate-6">
           <img src={internetAge} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
@@ -61,7 +61,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform rotate-6">
           <img src={healthy} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
@@ -73,7 +73,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform -rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform -rotate-6">
           <img src={topics} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
@@ -85,7 +85,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform -rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform -rotate-6">
           <img src={part3} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
@@ -97,7 +97,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform rotate-6">
           <img src={planet} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
@@ -109,7 +109,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform rotate-6">
           <img src={business} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
@@ -121,7 +121,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform -rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform -rotate-6">
           <img src={games} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">Games: Beginner</span>
@@ -131,7 +131,7 @@ const CoursesSwipe = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="rounded-2xl shadow-xl pt-3 transform -rotate-6">
+        <div className="rounded-2xl shadow-md pt-3 transform -rotate-6">
           <img src={advanced} alt="" className="w-full rounded-t-2xl" />
           <div className="p-3">
             <span className="font-semibold text-gray-900">
